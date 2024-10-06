@@ -1,0 +1,106 @@
+/* General styles for the food item card */
+.food-item {
+    width: 100%;
+    max-width: 300px; /* Ensures a max width to keep consistent card sizes */
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(190, 189, 189);
+    transition: 0.3s;
+    animation: fadeIn 1.3s;
+    overflow: hidden; /* Prevents content overflow */
+    display: flex;
+    flex-direction: column; /* Stacks the image and content properly */
+}
+
+/* Styles for the food item image */
+.food-item-img {
+    width: 100%;
+    height: 200px; /* Fixed height for consistency across cards */
+    object-fit: cover; /* Ensures images are cropped to fit within the space */
+    border-radius: 15px 15px 0px 0px;
+}
+
+/* Styles for the food item information section */
+.food-item-info {
+    padding: 20px;
+    flex-grow: 1; /* Ensures content area grows to fill available space */
+}
+
+/* Flexbox for name and rating within the info section */
+.food-item-name-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Styles for the name text */
+.food-item-name-rating p {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* Styles for the rating stars */
+.food-item-name-rating img {
+    width: 70px;
+}
+
+/* Description of the food item */
+.food-item-desc {
+    color: rgb(82, 79, 79);
+    font-size: 14px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limits the description to 3 lines */
+    -webkit-box-orient: vertical;
+}
+
+/* Price section */
+.food-item-price {
+    color: rgb(52, 158, 25);
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+/* Container for the image with additional elements */
+.food-item-image-container {
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+/* Styles for the add button */
+.food-item-image-container .add {
+    width: 35px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+}
+
+/* Styles for the counter section */
+.food-item-counter {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* Counter icons (add/remove buttons) */
+.food-item-counter img {
+    width: 30px;
+    cursor: pointer;
+}
