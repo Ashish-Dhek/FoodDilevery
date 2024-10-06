@@ -14,7 +14,8 @@ const StoreContextProvider = (props) => {
     const [cartItems, setCartItems] = useState({});
     const [food_list,setFoodList]= useState([]);
     const[reloadState,setReloadState]= useState(false);
-    const url= "http://localhost:4000";
+
+    const url= "https://fooddilevery-backend.onrender.com";
     const  [token, setToken]= useState("");
 
 
