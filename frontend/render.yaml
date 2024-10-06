@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: food-delivery-app
+    env: node
+    buildCommand: npm run build
+    startCommand: npm start
+    routes:
+      - src: /*
+        dest: /index.html
