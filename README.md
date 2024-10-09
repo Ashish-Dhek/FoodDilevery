@@ -1,4 +1,4 @@
-![Screenshot (32)](https://github.com/user-attachments/assets/789afdd8-c163-4380-b224-ca00ff0c32c9)It is a Full Stack Food Delievery App. </br>
+It is a Full Stack Food Delievery App. </br>
 Tech Stack - React.js, Node.js, MonogDB , Express.js, Cloudinary  </br> </br>
 Functionalities: </br>
 1) Responsive Food Items Display </br>
@@ -11,5 +11,9 @@ Functionalities: </br>
 Links: </br>
 Project- https://fooddilevery-frontend.onrender.com/ </br>
 Admin Panel - https://fooddilevery-admin.onrender.com/ </br>
+
+
+<h1>Screenshots</h1> </br>
+
 
 ![Screenshot (32)](https://github.com/user-attachments/assets/203ab1dc-f687-4e75-ae45-bd29b6d2c88a)
