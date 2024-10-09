@@ -1,15 +1,15 @@
 It is a Full Stack Food Delievery App. </br>
-Tech Stack - React.js, Node.js, MonogDB , Express.js, Cloudinary
-Functionalities:
-1) Responsive Food Items Display
-2) Cart Option
-3) Admin pannel which can mangae food items and manage food orders status
-4) Authentication and Authorization (Login/Register)
-5) Checkout functionality
+Tech Stack - React.js, Node.js, MonogDB , Express.js, Cloudinary  </br> </br>
+Functionalities: </br>
+1) Responsive Food Items Display </br>
+2) Cart Option </br>
+3) Admin pannel which can mangae food items and manage food orders status </br>
+4) Authentication and Authorization (Login/Register) </br>
+5) Checkout functionality </br>
+ </br>
 
-
-Links:
-Project- https://fooddilevery-frontend.onrender.com/
-Admin Panel - https://fooddilevery-admin.onrender.com/
+Links: </br>
+Project- https://fooddilevery-frontend.onrender.com/ </br>
+Admin Panel - https://fooddilevery-admin.onrender.com/ </br>
 
 
