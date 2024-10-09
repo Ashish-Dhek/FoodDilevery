@@ -1,4 +1,4 @@
-It is a Full Stack Food Delievery App. 
+It is a Full Stack Food Delievery App. </br>
 Tech Stack - React.js, Node.js, MonogDB , Express.js, Cloudinary
 Functionalities:
 1) Responsive Food Items Display
